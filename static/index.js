@@ -9,5 +9,5 @@ export const maps = {
 
 export const stuffs = {
   csgo: csgoStuffs,
-  valorant: {},
+  valorant: [],
 };

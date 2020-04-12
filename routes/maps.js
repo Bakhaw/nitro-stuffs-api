@@ -33,7 +33,7 @@ router.get('/:game/maps/:mapKey', (req, res) => {
     });
   }
 
-  const map = maps[game].filter((map) => map.key === mapKey)[0];
+  const map = mapList.filter((map) => map.key === mapKey)[0];
 
   if (!map) {
     res.send({
