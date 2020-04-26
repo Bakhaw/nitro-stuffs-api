@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "NODE_ENV=production nodemon -r esm server.js",
     "dev": "nodemon -r esm server.js"
