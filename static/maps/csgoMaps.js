@@ -1,5 +1,5 @@
 const baseImageUrl =
-  'https://github.com/Bakhaw/nitro-stuffs-api/blob/master/static/images';
+  'https://raw.githubusercontent.com/Bakhaw/nitro-stuffs-api/master/static/images';
 
 const mapList = [
   {
