@@ -3,6 +3,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
+import agentsRoutes from './routes/agents';
 import mapsRoutes from './routes/maps';
 import stuffsRoutes from './routes/stuffs';
 
@@ -16,6 +17,7 @@ const app = express();
 
 app.use(cors());
 
+app.use('/api', agentsRoutes);
 app.use('/api', mapsRoutes);
 app.use('/api', stuffsRoutes);
 

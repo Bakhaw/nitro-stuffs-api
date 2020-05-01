@@ -1,58 +1,58 @@
 const baseImageUrl =
-  'https://raw.githubusercontent.com/Bakhaw/nitro-stuffs-api/master/static/images';
+  'https://raw.githubusercontent.com/Bakhaw/nitro-stuffs-api/master/static/images/csgo/maps';
 
 const mapList = [
   {
     active: true,
-    image: `${baseImageUrl}/csgo/de_cache.jpg`,
+    image: `${baseImageUrl}/de_cache.jpg`,
     key: 'de_cache',
     name: 'Cache',
   },
   {
     active: false,
-    image: `${baseImageUrl}/csgo/de_cobblestone.jpg`,
+    image: `${baseImageUrl}/de_cobblestone.jpg`,
     key: 'de_cobblestone',
     name: 'Cobblestone',
   },
   {
     active: true,
-    image: `${baseImageUrl}/csgo/de_dust2.jpg`,
+    image: `${baseImageUrl}/de_dust2.jpg`,
     key: 'de_dust2',
     name: 'Dust II',
   },
   {
     active: true,
-    image: `${baseImageUrl}/csgo/de_inferno.jpg`,
+    image: `${baseImageUrl}/de_inferno.jpg`,
     key: 'de_inferno',
     name: 'Inferno',
   },
   {
     active: true,
-    image: `${baseImageUrl}/csgo/de_mirage.jpg`,
+    image: `${baseImageUrl}/de_mirage.jpg`,
     key: 'de_mirage',
     name: 'Mirage',
   },
   {
     active: true,
-    image: `${baseImageUrl}/csgo/de_nuke.jpg`,
+    image: `${baseImageUrl}/de_nuke.jpg`,
     key: 'de_nuke',
     name: 'Nuke',
   },
   {
     active: true,
-    image: `${baseImageUrl}/csgo/de_overpass.jpg`,
+    image: `${baseImageUrl}/de_overpass.jpg`,
     key: 'de_overpass',
     name: 'Overpass',
   },
   {
     active: true,
-    image: `${baseImageUrl}/csgo/de_train.jpg`,
+    image: `${baseImageUrl}/de_train.jpg`,
     key: 'de_train',
     name: 'Train',
   },
   {
     active: true,
-    image: `${baseImageUrl}/csgo/de_vertigo.jpg`,
+    image: `${baseImageUrl}/de_vertigo.jpg`,
     key: 'de_vertigo',
     name: 'Vertigo',
   },
