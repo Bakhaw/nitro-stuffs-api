@@ -1,5 +1,5 @@
 const baseImageUrl =
-  'https://raw.githubusercontent.com/Bakhaw/nitro-stuffs-api/master/static/images';
+  'https://raw.githubusercontent.com/Bakhaw/nitro-stuffs-api/master/static/images/valorant/agents';
 
 const valorantAgents = [
   {
