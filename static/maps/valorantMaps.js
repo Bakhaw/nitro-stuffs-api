@@ -1,22 +1,22 @@
 const baseImageUrl =
-  'https://raw.githubusercontent.com/Bakhaw/nitro-stuffs-api/master/static/images';
+  'https://raw.githubusercontent.com/Bakhaw/nitro-stuffs-api/master/static/images/valorant/maps';
 
 const mapList = [
   {
     active: false,
-    image: `${baseImageUrl}/valorant/bind.jpg`,
+    image: `${baseImageUrl}/bind.jpg`,
     key: 'bind',
     name: 'Bind',
   },
   {
     active: false,
-    image: `${baseImageUrl}/valorant/haven.jpg`,
+    image: `${baseImageUrl}/haven.jpg`,
     key: 'haven',
     name: 'Haven',
   },
   {
     active: false,
-    image: `${baseImageUrl}/valorant/split.jpg`,
+    image: `${baseImageUrl}/split.jpg`,
     key: 'split',
     name: 'Split',
   },
