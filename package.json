@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "NODE_ENV=production nodemon -r esm server.js",
-    "dev": "nodemon -r esm server.js"
+    "dev": "nodemon --exec babel-node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -17,5 +17,10 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.7",
     "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6"
   }
 }
